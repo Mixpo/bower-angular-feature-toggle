@@ -35,7 +35,7 @@ var semver = require('semver');
 (function(window, angular) {
   'use strict';
 
-  var ng = angular.module('yh.featureToggle', ['semver']);
+  var ng = angular.module('angularFeatureToggle', ['semver']);
   ng.config(['featureToggleProvider', '$injector', function (featureToggleProvider, $injector) {
     initFeatures(featureToggleProvider);
     overrideUIRouterStateFn($injector, featureToggleProvider);
@@ -44,6 +44,7 @@ var semver = require('semver');
      *
      * @param featureToggleProvider
      */
+    /* @ngInject */
     function initFeatures(featureToggleProvider) {
       if (window.angularFeaturesConf) {
         featureToggleProvider.init(window.angularFeaturesConf);
@@ -59,6 +60,7 @@ var semver = require('semver');
      * @param $injector
      * @param featureToggleProvider
      */
+    /* @ngInject */
     function overrideUIRouterStateFn($injector, featureToggleProvider) {
       try {
         var $stateProvider = $injector.get('$stateProvider');
