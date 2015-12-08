@@ -1,0 +1,35 @@
+{
+  "name": "angular-feature-toggle",
+  "version": "0.1.6",
+  "homepage": "https://github.com/Mixpo/bower-angular-feature-toggle",
+  "authors": [
+    "Hays Clark <hclark@mixpo.com>"
+  ],
+  "description": "feature toggling capabilities for angular",
+  "main": "./angular-feature-toggle.js",
+  "dependencies": {
+    "angular": ">= 1.0.8"
+  },
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "angular",
+    "feature-flag",
+    "feature-toggle",
+    "feature",
+    "toggle",
+    "flag",
+    "throttle",
+    "feature-hiding",
+    "hiding"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
