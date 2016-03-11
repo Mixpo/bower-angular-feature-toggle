@@ -2,7 +2,7 @@ Bower packaged angular-feature-toggle
 =====================================  
 
 This repo is for distribution `bower`. The source for this module is in the
-[mixpo angular-feature-toggle repo](https://github.com/Mixpo/angular-feature-toggle).
+[angular-feature-toggle](https://github.com/yairhaimo/angular-feature-toggle) repo.
 Please file issues and pull requests against that repo.
 
 Install
